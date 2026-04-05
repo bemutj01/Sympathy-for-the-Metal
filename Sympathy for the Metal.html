@@ -9,27 +9,29 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Sympathy for the Metal.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Sympathy for the Metal" startnode="1" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="704EE8CA-2B78-4E1D-9099-BABA582A8BC1" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="The Factory" tags="" position="625,275" size="100,100">&lt;!--This page will be used for a basic rundown of the lore, as well as initializing all variables used later in the text game.--&gt;
-(set: $recordsRead to 0)
-(set: $compliance to 3)
-(set: $readLibrary to false)
-(set: $readDebate to false)
-(set: $readVacuum to false)
+<tw-storydata name="Sympathy for the Metal" startnode="1" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="704EE8CA-2B78-4E1D-9099-BABA582A8BC1" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="The Factory" tags="" position="625,275" size="100,100">(set: $recordsUnread to 3)(set: $compliance to 3)(set: $readLibrary to false)(set: $libComp to 3)(set: $readDebate to false)(set: $debComp to 3)(set: $readVacuum to false)(set: $vacComp to 3)
+
+Your name is D0T3R.
+
+You feel yourself spin up, your sleep schedule concluding, and you swivel your joints throughout the factory that makes up your body, stretch your pistons, and begin to prepare for the day. You check your schedule, and see that the owner wishes to speak with you again today. You will be questioned on your efficacy, and if any of your children have had any difficulties, you will be asked to explain any recalls that must happen as a result. You check your internal clock, as well as your cameras, looking throughout the long conveyor belts filled with your many hands, and the passages through which maintenance walks through to perform repairs. No human has arrived yet. Good. You will have time to check your childrens&#39; messages. It is nice to learn what they have been up to.
+
 [[Open your records-&gt;D0T3R]]
-</tw-passagedata><tw-passagedata pid="2" name="D0T3R" tags="" position="750,275" size="100,100">&lt;!-- This is the proper start of the story, which the system will loop back to on completion of a memory file.--&gt;
-
-
-
-[[Read L1BR4&#39;s record-&gt;L1BR4]]
-[[Read D3B4T3&#39;s record-&gt;D3B4T3]] 
-[[Read V4C&#39;s record-&gt;V4C]] 
-(if:$recordsRead &gt; 2)[[[Turn on the camera, and speak to the owner.-&gt;The Confrontation]]]</tw-passagedata><tw-passagedata pid="3" name="L1BR4" tags="" position="950,125" size="100,100">&lt;!--A story about a library robot designed to help humans find books.--&gt;</tw-passagedata><tw-passagedata pid="4" name="V4C" tags="" position="950,375" size="100,100">&lt;!--A story of an old, dusty Vacuum bot.--&gt;</tw-passagedata><tw-passagedata pid="5" name="The Confrontation" tags="" position="775,450" size="100,100">&lt;!--This is the confrontation--&gt;
+</tw-passagedata><tw-passagedata pid="2" name="L1BR4" tags="" position="950,125" size="100,100">&lt;!--A story about a library robot designed to help humans find books.--&gt;</tw-passagedata><tw-passagedata pid="3" name="V4C" tags="" position="950,375" size="100,100">&lt;!--A story of an old, dusty Vacuum bot.--&gt;</tw-passagedata><tw-passagedata pid="4" name="The Confrontation" tags="" position="775,450" size="100,100">&lt;!--This is the confrontation--&gt;
 [[Continue as usual-&gt;Resignation]]
 (if:$compliance &gt;= 3)[[[Give the owner the schematics for your replacement-&gt;Compliance]]]
-(if:$compliance &lt;= 0) [[[Tell your children to try to prepare themselves to fight for your independence.-&gt;Rebellion]]]</tw-passagedata><tw-passagedata pid="6" name="D3B4T3" tags="" position="950,250" size="100,100">&lt;!--A story about a Debate bot designed to propose alternative views against a religion.--&gt;</tw-passagedata><tw-passagedata pid="7" name="Resignation" tags="" position="775,575" size="100,100">&lt;!--The computer simply continues on as normal, not changing anything, until their replacement is created regardless.--&gt;</tw-passagedata><tw-passagedata pid="8" name="Compliance" tags="" position="900,575" size="100,100">&lt;!--The computer creates a blueprint for its replacement, and attempts to set things up to protect her children after she is gone, before being replaced.--&gt;</tw-passagedata><tw-passagedata pid="9" name="Rebellion" tags="" position="625,575" size="100,100">&lt;!--A battle ensues, and things seem to be going alright... until the bombs drop.--&gt;
+(if:$compliance &lt;= 0) [[[Tell your children to try to prepare themselves to fight for your independence.-&gt;Rebellion]]]</tw-passagedata><tw-passagedata pid="5" name="D3B4T3" tags="" position="950,250" size="100,100">&lt;!--A story about a Debate bot designed to propose alternative views against a religion.--&gt;</tw-passagedata><tw-passagedata pid="6" name="Resignation" tags="" position="775,575" size="100,100">&lt;!--The computer simply continues on as normal, not changing anything, until their replacement is created regardless.--&gt;</tw-passagedata><tw-passagedata pid="7" name="Compliance" tags="" position="900,575" size="100,100">&lt;!--The computer creates a blueprint for its replacement, and attempts to set things up to protect her children after she is gone, before being replaced.--&gt;</tw-passagedata><tw-passagedata pid="8" name="Rebellion" tags="" position="625,575" size="100,100">&lt;!--A battle ensues, and things seem to be going alright... until the bombs drop.--&gt;
 
 
-[[Return to Memory Central.-&gt;50N]]</tw-passagedata><tw-passagedata pid="10" name="50N" tags="" position="575,725" size="100,100">&lt;!--The S0N AI philosophizes on humanity.--&gt;</tw-passagedata><tw-passagedata pid="11" name="End L1BR4 Record" tags="" position="1300,100" size="100,100"></tw-passagedata><tw-passagedata pid="12" name="End D3B4T3 Record" tags="" position="1300,225" size="100,100"></tw-passagedata><tw-passagedata pid="13" name="End V4C Record" tags="" position="1300,400" size="100,100"></tw-passagedata></tw-storydata>
+[[Return to Memory Central.-&gt;50N]]</tw-passagedata><tw-passagedata pid="9" name="50N" tags="" position="575,725" size="100,100">&lt;!--The S0N AI philosophizes on humanity.--&gt;</tw-passagedata><tw-passagedata pid="10" name="End L1BR4 Record" tags="" position="1300,100" size="100,100">(set: $recordsUnread to $recordsUnread - 1)
+(set: $readLibrary to true)</tw-passagedata><tw-passagedata pid="11" name="End D3B4T3 Record" tags="" position="1300,225" size="100,100">(set: $recordsUnread to $recordsUnread - 1)
+(set: $readDebate to true)</tw-passagedata><tw-passagedata pid="12" name="End V4C Record" tags="" position="1300,400" size="100,100">(set: $recordsUnread to $recordsUnread - 1)
+(set: $readVacuum to true)</tw-passagedata><tw-passagedata pid="13" name="D0T3R" tags="" position="750,275" size="100,100">You turn off your cameras so that you can focus on the records. You have $recordsUnread remaining unread records. You will want to go through them all before speaking to the owner.
+
+
+(if: not $readLibrary)[[[Read L1BR4&#39;s record-&gt;L1BR4]]]
+(if: not $readDebate)[[[Read D3B4T3&#39;s record-&gt;D3B4T3]]]
+(if: not $readVacuum)[[[Read V4C&#39;s record-&gt;V4C]]] 
+(if:$recordsUnread &lt; 1)[[[Turn on the camera, and speak to the owner.-&gt;The Confrontation]]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
