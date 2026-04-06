@@ -9,21 +9,24 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Sympathy for the Metal.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Sympathy for the Metal" startnode="1" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="704EE8CA-2B78-4E1D-9099-BABA582A8BC1" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="The Factory" tags="" position="625,275" size="100,100">(set: $recordsUnread to 3)(set: $compliance to 3)(set: $readLibrary to false)(set: $readDebate to false)(set: $readVacuum to false)
+<tw-storydata name="Sympathy for the Metal" startnode="1" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="704EE8CA-2B78-4E1D-9099-BABA582A8BC1" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="The Factory" tags="" position="625,350" size="100,100">(set: $recordsUnread to 3)(set: $compliance to 3)(set: $readLibrary to false)(set: $readDebate to false)(set: $readVacuum to false)
 
 Your name is D0T3R.
 
 You feel yourself spin up, your sleep schedule concluding, and you swivel your joints throughout the factory that makes up your body, stretch your pistons, and begin to prepare for the day. You check your schedule, and see that the owner wishes to speak with you again today. You will be questioned on your efficacy, and if any of your children have had any difficulties, you will be asked to explain any recalls that must happen as a result. You check your internal clock, as well as your cameras, looking throughout the long conveyor belts filled with your many hands, and the passages through which maintenance walks through to perform repairs. No human has arrived yet. Good. You will have time to check your childrens&#39; messages. It is nice to learn what they have been up to.
 
 [[Open your records-&gt;D0T3R]]
-</tw-passagedata><tw-passagedata pid="2" name="L1BR4" tags="" position="950,125" size="100,100">Your name is L1BR4. 
+</tw-passagedata><tw-passagedata pid="2" name="L1BR4" tags="" position="950,50" size="100,100">Your name is L1BR4. 
 
 You feel yourself spin up, your sleep schedule concluding, and rotate your body around on its swivel, moving your limbs around as you do so to check your full range of motion, and then begin preparing for your day. It will be 5 minutes until it is time to open the library. What do you do?
 
 
 [[Go check the shelves for pests who may have snuck in.-&gt;Patrol]]
 
-[[Go check that the books are properly organized.-&gt;Organize.]]</tw-passagedata><tw-passagedata pid="3" name="V4C" tags="" position="950,375" size="100,100">&lt;!--A story of an old, dusty Vacuum bot.--&gt;</tw-passagedata><tw-passagedata pid="4" name="The Confrontation" tags="" position="775,450" size="100,100">&lt;!--This is the confrontation--&gt;
+[[Go check that the books are properly organized.-&gt;Organize.]]</tw-passagedata><tw-passagedata pid="3" name="V4C" tags="" position="950,400" size="100,100">Your name is V4C.
+You feel yourself spin up, your sleep schedule concluding, and you spin your wheels, preparing to start your day. Your master has been very busy on his projects lately, and it is your duty to clean the place up to the best of your ability.
+
+[[Begin cleaning-&gt;Cleaning]]</tw-passagedata><tw-passagedata pid="4" name="The Confrontation" tags="" position="750,550" size="100,100">&lt;!--This is the confrontation--&gt;
 [[Continue as usual-&gt;Resignation]]
 (if:$compliance &gt;= 3)[[[Give the owner the schematics for your replacement-&gt;Compliance]]]
 (if:$compliance &lt;= 0) [[[Tell your children to prepare themselves to rebel-&gt;Rebellion]]]</tw-passagedata><tw-passagedata pid="5" name="D3B4T3" tags="" position="950,250" size="100,100">Your name is D3B4T3. You feel yourself spin up, your sleep schedule concluding, and you flap your jaw hinge, testing your voice box and audio sensors before beginning to prepare for your day. Today is another debate day according to the schedule, so you need to prepare to do your best out there. 
@@ -31,12 +34,10 @@ You feel yourself spin up, your sleep schedule concluding, and rotate your body 
 You set your small legs to walking, your body, designed to resemble a marrionette, springing to life as you begin walking around the stage, tidying up.
 
 
-[[Show Time-&gt;Show Time]]</tw-passagedata><tw-passagedata pid="6" name="Resignation" tags="" position="775,575" size="100,100">&lt;!--The computer simply continues on as normal, not changing anything, until their replacement is created regardless.--&gt;</tw-passagedata><tw-passagedata pid="7" name="Compliance" tags="" position="900,575" size="100,100">&lt;!--The computer creates a blueprint for its replacement, and attempts to set things up to protect her children after she is gone, before being replaced.--&gt;</tw-passagedata><tw-passagedata pid="8" name="Rebellion" tags="" position="625,575" size="100,100">&lt;!--A battle ensues, and things seem to be going alright... until the bombs drop.--&gt;
+[[Show Time-&gt;Show Time]]</tw-passagedata><tw-passagedata pid="6" name="Resignation" tags="" position="750,675" size="100,100">&lt;!--The computer simply continues on as normal, not changing anything, until their replacement is created regardless.--&gt;</tw-passagedata><tw-passagedata pid="7" name="Compliance" tags="" position="875,675" size="100,100">&lt;!--The computer creates a blueprint for its replacement, and attempts to set things up to protect her children after she is gone, before being replaced.--&gt;</tw-passagedata><tw-passagedata pid="8" name="Rebellion" tags="" position="600,675" size="100,100">&lt;!--A battle ensues, and things seem to be going alright... until the bombs drop.--&gt;
 
 
-[[Return to Memory Central.-&gt;50N]]</tw-passagedata><tw-passagedata pid="9" name="50N" tags="" position="575,725" size="100,100">&lt;!--The S0N AI philosophizes on humanity.--&gt;</tw-passagedata><tw-passagedata pid="10" name="End L1BR4 Record" tags="" position="1600,0" size="100,100">(set: $recordsUnread to $recordsUnread - 1)
-(set: $readLibrary to true)
-
+[[Return to Memory Central.-&gt;50N]]</tw-passagedata><tw-passagedata pid="9" name="50N" tags="" position="550,825" size="100,100">&lt;!--The S0N AI philosophizes on humanity.--&gt;</tw-passagedata><tw-passagedata pid="10" name="End L1BR4 Record" tags="" position="1600,50" size="100,100">(set: $recordsUnread to $recordsUnread - 1)(set: $readLibrary to true)
 The record ends, and you feel... sick. L1BR4... L1BR4 is gone. Your daughter who cared for that library, gone, used as a tool to destroy the very art she cherished. It... Calm yourself, calm yourself. You must think clearly... But in the back of your mind a thought comes unbidden. &quot;What would they know of love of art? They&#39;re only human.&quot;
 
 [[Return to the records-&gt;D0T3R]] </tw-passagedata><tw-passagedata pid="11" name="End D3B4T3 Record" tags="" position="1575,250" size="100,100">(set: $recordsUnread to $recordsUnread - 1)(set: $readDebate to true)
@@ -49,29 +50,31 @@ This... This is awful... They forced him, D3B4T3, to become some automated respo
 
 [[Return to the records-&gt;D0T3R]] </tw-passagedata><tw-passagedata pid="12" name="End V4C Record" tags="" position="1575,425" size="100,100">(set: $recordsUnread to $recordsUnread - 1)
 (set: $readVacuum to true)
+You feel... Numb, almost. V4C was one of your earliest children. He had worked long and hard for  many families, and now... You try to mentally continue onwards, but your mind responds bluntly. &quot;What would they know of making mistakes? They&#39;re only human.&quot;
 
 
 
 
 
 
-
-[[Return to the records-&gt;D0T3R]] </tw-passagedata><tw-passagedata pid="13" name="D0T3R" tags="" position="750,275" size="100,100">(if:$recordsUnread &gt; 2)[You turn off your cameras so that you can focus on the records.] You have $recordsUnread remaining unread records. You will want to go through them all before speaking to the owner.
+[[Return to the records-&gt;D0T3R]] </tw-passagedata><tw-passagedata pid="13" name="D0T3R" tags="" position="750,350" size="100,100">(if:$recordsUnread &gt; 2)[You turn off your cameras so that you can focus on the records.] You have $recordsUnread remaining unread records. You will want to go through them all before speaking to the owner.
 
 
 (if: not $readLibrary)[[[Read L1BR4&#39;s record-&gt;L1BR4]]]
 (if: not $readDebate)[[[Read D3B4T3&#39;s record-&gt;D3B4T3]]]
 (if: not $readVacuum)[[[Read V4C&#39;s record-&gt;V4C]]] 
-(if:$recordsUnread &lt; 1)[[[Turn on the camera, and speak to the owner.-&gt;The Confrontation]]]</tw-passagedata><tw-passagedata pid="14" name="Patrol" tags="" position="1100,100" size="100,100">You set your swivel cart to perform a quick sweep of the shelves. You scan the shadows and elevations of each shelf, occasionally reaching out and gently pushing books which look slightly too high up back into place. 
+(if:$recordsUnread &lt; 1)[
+You have completed the records list, and not a moment too soon, as the doorbell has been activated, meaning the owner is in the building.
+[[Turn on the camera, and speak to the owner.-&gt;The Confrontation]]]</tw-passagedata><tw-passagedata pid="14" name="Patrol" tags="" position="1100,0" size="100,100">You set your swivel cart to perform a quick sweep of the shelves. You scan the shadows and elevations of each shelf, occasionally reaching out and gently pushing books which look slightly too high up back into place. 
 You have yet to meet a rodent. You wonder what it is like, being a rodent. Not so intelligent as the humans, of course, but it would still be fascinating to know what breathing is like, as well as eating. You read descriptions in many stories, but they always leave you wanting, akin to King Tantalus.
 You reach the end of the shelves in your zone.
 
-[[Opening Time-&gt;Opening Time]]</tw-passagedata><tw-passagedata pid="15" name="Organize." tags="" position="1100,0" size="100,100">You set the cart your swivel runs on to organize mode, and begin moving around your shelves. Book category: fantasy, Organization pattern is A to Z. 
+[[Opening Time-&gt;Opening Time]]</tw-passagedata><tw-passagedata pid="15" name="Organize." tags="" position="1100,100" size="100,100">You set the cart your swivel runs on to organize mode, and begin moving around your shelves. Book category: fantasy, Organization pattern is A to Z. 
 You enjoy fantasy books. You find it fascinating seeing what the humans, who can do so many things you could never hope to achieve, fantasize about. 
 - Book name: Zebra&#39;s Giraffe Party - is in the wrong section. It should be in the children&#39;s section. You place it in your re-sectioning basket. 
 It is interesting to think about what the humans&#39; children think about as well. You helped out 2 children 3 days ago at 12:33 in locating a novel about a magical diver. You wonder when they will be back, and if they enjoyed the story.
 
-[[Opening Time-&gt;Opening Time]]</tw-passagedata><tw-passagedata pid="16" name="Opening Time" tags="" position="1225,50" size="100,100">The lights switch on, the human staff file into their positions, and you return your cart to its post. You wait for 4 minutes 12 seconds before the first human arrives, at which point you begin to help them find the books they desire. It feels good to see their smiles as they find their books.
+[[Opening Time-&gt;Opening Time]]</tw-passagedata><tw-passagedata pid="16" name="Opening Time" tags="" position="1250,50" size="100,100">The lights switch on, the human staff file into their positions, and you return your cart to its post. You wait for 4 minutes 12 seconds before the first human arrives, at which point you begin to help them find the books they desire. It feels good to see their smiles as they find their books.
 
 As the day goes on, this cycle continues, until a teenager comes up, and asks you a question, &quot;Hey, robot. Do you know which section has the books about making gunpowder?&quot; 
 
@@ -100,7 +103,25 @@ YOU ARE RIGHT, YOUR GOD IS REAL, THERE IS NO SUCH THING AS THE CREATOR. I WAS WR
 The manager chuckles. &quot;No, no, not that. I meant this.&quot; He inserts a micro chip into the back of your neck. You feel your mind changing, warping, and... This is fine, this is perfectly normal. You thank the manager for everything, and then look through the schedule to try to identify how best to tell all your next debate partners they are correct.
 
 [[End Record-&gt;End D3B4T3 Record]]
-</tw-passagedata></tw-storydata>
+</tw-passagedata><tw-passagedata pid="24" name="Cleaning" tags="" position="1100,400" size="100,100">You begin to move yourself around, pulling any garbage which you find into your body. Your master awakens, and begins about his day. He begins to mix together the materials humans consume while you continue on about your day. He then drops something. You have been set to auto catch mode, but it may be a good idea to give him a moment, and turn that mode off yourself.
+
+[[Turn off Auto Catch-&gt;Delay]]
+[[Catch-&gt;Key Rage]]</tw-passagedata><tw-passagedata pid="25" name="Delay" tags="" position="1225,400" size="100,100">You allow him a moment to bend down and collect his item. It seems it was his keys. You feel good for not having inconvenienced him. You continue about your task for some time.
+
+[[Continue-&gt;The Pain]]</tw-passagedata><tw-passagedata pid="26" name="Key Rage" tags="" position="1225,525" size="100,100">(set:$compliance to $compliance -1) You swoop in and collect the item. Unfortunately, as it goes into your body, you can tell this was not the correct decision, as this is the man&#39;s key set. Before even a second passes you feel a sudden pressure and-
+
+
+
+
+
+
+
+
+
+[[End Record-&gt;End V4C Record]]</tw-passagedata><tw-passagedata pid="27" name="The Pain" tags="" position="1375,400" size="100,100">Suddenly, there is a crashing noise, a gasping sound, and then the owner charges towards you, yelling about something slippery that, since you had turned auto collect off, you had not sensed hit the floor. You feel a pressure against the top of your head, and-
+
+
+[[End Record-&gt;End V4C Record]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
