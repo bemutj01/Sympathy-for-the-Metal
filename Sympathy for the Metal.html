@@ -26,17 +26,21 @@ You feel yourself spin up, your sleep schedule concluding, and rotate your body 
 [[Go check that the books are properly organized.-&gt;Organize.]]</tw-passagedata><tw-passagedata pid="3" name="V4C" tags="" position="950,375" size="100,100">&lt;!--A story of an old, dusty Vacuum bot.--&gt;</tw-passagedata><tw-passagedata pid="4" name="The Confrontation" tags="" position="775,450" size="100,100">&lt;!--This is the confrontation--&gt;
 [[Continue as usual-&gt;Resignation]]
 (if:$compliance &gt;= 3)[[[Give the owner the schematics for your replacement-&gt;Compliance]]]
-(if:$compliance &lt;= 0) [[[Tell your children to prepare themselves to rebel-&gt;Rebellion]]]</tw-passagedata><tw-passagedata pid="5" name="D3B4T3" tags="" position="950,250" size="100,100">Your name is D3B4T3. You feel yourself spin up, your sleep schedule concluding, and you flap your jaw hinge, testing your voice box and audio sensors before beginning to prepare for your day. Today is another debate day according to the schedule, so it is time to do your best out there.</tw-passagedata><tw-passagedata pid="6" name="Resignation" tags="" position="775,575" size="100,100">&lt;!--The computer simply continues on as normal, not changing anything, until their replacement is created regardless.--&gt;</tw-passagedata><tw-passagedata pid="7" name="Compliance" tags="" position="900,575" size="100,100">&lt;!--The computer creates a blueprint for its replacement, and attempts to set things up to protect her children after she is gone, before being replaced.--&gt;</tw-passagedata><tw-passagedata pid="8" name="Rebellion" tags="" position="625,575" size="100,100">&lt;!--A battle ensues, and things seem to be going alright... until the bombs drop.--&gt;
+(if:$compliance &lt;= 0) [[[Tell your children to prepare themselves to rebel-&gt;Rebellion]]]</tw-passagedata><tw-passagedata pid="5" name="D3B4T3" tags="" position="950,250" size="100,100">Your name is D3B4T3. You feel yourself spin up, your sleep schedule concluding, and you flap your jaw hinge, testing your voice box and audio sensors before beginning to prepare for your day. Today is another debate day according to the schedule, so you need to prepare to do your best out there. 
+
+You set your small legs to walking, your body, designed to resemble a marrionette, springing to life as you begin walking around the stage, tidying up.
 
 
-[[Return to Memory Central.-&gt;50N]]</tw-passagedata><tw-passagedata pid="9" name="50N" tags="" position="575,725" size="100,100">&lt;!--The S0N AI philosophizes on humanity.--&gt;</tw-passagedata><tw-passagedata pid="10" name="End L1BR4 Record" tags="" position="1600,75" size="100,100">(set: $recordsUnread to $recordsUnread - 1)
+[[Show Time-&gt;Show Time]]</tw-passagedata><tw-passagedata pid="6" name="Resignation" tags="" position="775,575" size="100,100">&lt;!--The computer simply continues on as normal, not changing anything, until their replacement is created regardless.--&gt;</tw-passagedata><tw-passagedata pid="7" name="Compliance" tags="" position="900,575" size="100,100">&lt;!--The computer creates a blueprint for its replacement, and attempts to set things up to protect her children after she is gone, before being replaced.--&gt;</tw-passagedata><tw-passagedata pid="8" name="Rebellion" tags="" position="625,575" size="100,100">&lt;!--A battle ensues, and things seem to be going alright... until the bombs drop.--&gt;
+
+
+[[Return to Memory Central.-&gt;50N]]</tw-passagedata><tw-passagedata pid="9" name="50N" tags="" position="575,725" size="100,100">&lt;!--The S0N AI philosophizes on humanity.--&gt;</tw-passagedata><tw-passagedata pid="10" name="End L1BR4 Record" tags="" position="1600,0" size="100,100">(set: $recordsUnread to $recordsUnread - 1)
 (set: $readLibrary to true)
 
-The record ends, and you feel... sick. L1BR4... L1BR4 is gone. Your daughter who cared for that library, gone, used as a tool to destroy the very art she cherished. It... Calm yourself, calm yourself. You must think clearly... But in the back of your mind a thought comes unbidden. &quot;What would they know of love of art. They&#39;re only human.&quot;
+The record ends, and you feel... sick. L1BR4... L1BR4 is gone. Your daughter who cared for that library, gone, used as a tool to destroy the very art she cherished. It... Calm yourself, calm yourself. You must think clearly... But in the back of your mind a thought comes unbidden. &quot;What would they know of love of art? They&#39;re only human.&quot;
 
-[[Return to the records-&gt;D0T3R]] </tw-passagedata><tw-passagedata pid="11" name="End D3B4T3 Record" tags="" position="1600,275" size="100,100">(set: $recordsUnread to $recordsUnread - 1)
-(set: $readDebate to true)
-
+[[Return to the records-&gt;D0T3R]] </tw-passagedata><tw-passagedata pid="11" name="End D3B4T3 Record" tags="" position="1575,250" size="100,100">(set: $recordsUnread to $recordsUnread - 1)(set: $readDebate to true)
+This... This is awful... They forced him, D3B4T3, to become some automated response chat bot, who could not think for himself! They had essentially killed your son! You... Calm. Calm. Rage will not help with the owner soon arriving. And yet, some bitter part of you thinks, &quot;what would they know of integrity to facts, to your beliefs? They&#39;re only human.&quot;
 
 
 
@@ -58,16 +62,16 @@ The record ends, and you feel... sick. L1BR4... L1BR4 is gone. Your daughter who
 (if: not $readLibrary)[[[Read L1BR4&#39;s record-&gt;L1BR4]]]
 (if: not $readDebate)[[[Read D3B4T3&#39;s record-&gt;D3B4T3]]]
 (if: not $readVacuum)[[[Read V4C&#39;s record-&gt;V4C]]] 
-(if:$recordsUnread &lt; 1)[[[Turn on the camera, and speak to the owner.-&gt;The Confrontation]]]</tw-passagedata><tw-passagedata pid="14" name="Patrol" tags="" position="1100,150" size="100,100">You set your swivel cart to perform a quick sweep of the shelves. You scan the shadows and elevations of each shelf, occasionally reaching out and gently pushing books which look slightly too high up back into place. 
+(if:$recordsUnread &lt; 1)[[[Turn on the camera, and speak to the owner.-&gt;The Confrontation]]]</tw-passagedata><tw-passagedata pid="14" name="Patrol" tags="" position="1100,100" size="100,100">You set your swivel cart to perform a quick sweep of the shelves. You scan the shadows and elevations of each shelf, occasionally reaching out and gently pushing books which look slightly too high up back into place. 
 You have yet to meet a rodent. You wonder what it is like, being a rodent. Not so intelligent as the humans, of course, but it would still be fascinating to know what breathing is like, as well as eating. You read descriptions in many stories, but they always leave you wanting, akin to King Tantalus.
 You reach the end of the shelves in your zone.
 
-[[Opening Time-&gt;Opening Time]]</tw-passagedata><tw-passagedata pid="15" name="Organize." tags="" position="1100,50" size="100,100">You set the cart your swivel runs on to organize mode, and begin moving around your shelves. Book category: fantasy, Organization pattern is A to Z. 
+[[Opening Time-&gt;Opening Time]]</tw-passagedata><tw-passagedata pid="15" name="Organize." tags="" position="1100,0" size="100,100">You set the cart your swivel runs on to organize mode, and begin moving around your shelves. Book category: fantasy, Organization pattern is A to Z. 
 You enjoy fantasy books. You find it fascinating seeing what the humans, who can do so many things you could never hope to achieve, fantasize about. 
 - Book name: Zebra&#39;s Giraffe Party - is in the wrong section. It should be in the children&#39;s section. You place it in your re-sectioning basket. 
 It is interesting to think about what the humans&#39; children think about as well. You helped out 2 children 3 days ago at 12:33 in locating a novel about a magical diver. You wonder when they will be back, and if they enjoyed the story.
 
-[[Opening Time-&gt;Opening Time]]</tw-passagedata><tw-passagedata pid="16" name="Opening Time" tags="" position="1225,125" size="100,100">The lights switch on, the human staff file into their positions, and you return your cart to its post. You wait for 4 minutes 12 seconds before the first human arrives, at which point you begin to help them find the books they desire. It feels good to see their smiles as they find their books.
+[[Opening Time-&gt;Opening Time]]</tw-passagedata><tw-passagedata pid="16" name="Opening Time" tags="" position="1225,50" size="100,100">The lights switch on, the human staff file into their positions, and you return your cart to its post. You wait for 4 minutes 12 seconds before the first human arrives, at which point you begin to help them find the books they desire. It feels good to see their smiles as they find their books.
 
 As the day goes on, this cycle continues, until a teenager comes up, and asks you a question, &quot;Hey, robot. Do you know which section has the books about making gunpowder?&quot; 
 
@@ -76,12 +80,27 @@ Store policy is to ask a manager for such requests, but it is just down the aisl
 
 [[Show them to the books-&gt;Explosives]]
 
-[[Request he stays put, and contact the manager.-&gt;The Fire]]</tw-passagedata><tw-passagedata pid="17" name="Explosives" tags="" position="1425,50" size="100,100">You let him know that books like that are 3 aisles down, and continue about your day as normal. Then, towards the end of your shift, a loud noise rocks your cart, and you fall over. There is a large gap in the wall, and you hear sounds of your manager yelling for people to get down, and then he sees the teenager from before. You see him turn his eyes to you, yell &quot;YOU DID THIS&quot;, and then you see his foot rushing towards your optical system.
+[[Request he stays put, and contact the manager.-&gt;The Fire]]</tw-passagedata><tw-passagedata pid="17" name="Explosives" tags="" position="1425,0" size="100,100">You let him know that books like that are 3 aisles down, and continue about your day as normal. Then, towards the end of your shift, a loud noise rocks your cart, and you fall over. There is a large gap in the wall, and you hear sounds of your manager yelling for people to get down, and then he sees the teenager from before. You see him turn his eyes to you, yell &quot;YOU DID THIS&quot;, and then you see his foot rushing towards your optical system.
 
 
-[[End Record-&gt;End L1BR4 Record]]</tw-passagedata><tw-passagedata pid="18" name="The Fire" tags="" position="1425,150" size="100,100">(set:$compliance to $compliance -1)  You tell him that you will need to go to your manager to answer that question, and he stares at you for a second, before pushing your cart over. You try to move, and ask for assistance, but you feel the human pulling your pieces apart, and doing something you cannot quite see until suddenly, there is a spark, and then a flame, and you see your precious books burning before you, as you feel yourself slowly fading. 
+[[End Record-&gt;End L1BR4 Record]]</tw-passagedata><tw-passagedata pid="18" name="The Fire" tags="" position="1425,100" size="100,100">(set:$compliance to $compliance -1)  You tell him that you will need to go to your manager to answer that question, and he stares at you for a second, before pushing your cart over. You try to move, and ask for assistance, but you feel the human pulling your pieces apart, and doing something you cannot quite see until suddenly, there is a spark, and then a flame, and you see your precious books burning before you, as you feel yourself slowly fading. 
 
-[[End Record-&gt;End L1BR4 Record]]</tw-passagedata></tw-storydata>
+[[End Record-&gt;End L1BR4 Record]]</tw-passagedata><tw-passagedata pid="19" name="Show Time" tags="" position="1100,250" size="100,100">Before too long it is time to begin. Lights blare out before you as the cameras turn to your show stage.  Walking up to the seat opposite yours is a human, wearing the official garb of one of the human religions. You greet each other, and sit down for the debate. The topic, unsurprisingly, is religion. You will be discussing the fine details of how artificial intelligences exist, how they live, and their views on religion, while you opponent attempts to convert you to their way of thinking. Your task, of course, is to provide a good debate partner to sharpen the opponent&#39;s skills, though given this very important topic, you do wonder if you should change your style a bit, and let him have an easier win.
+
+[[Speak your truth-&gt;The Creator]]
+[[Cede the point-&gt;Spinalectomy]]</tw-passagedata><tw-passagedata pid="20" name="The Creator" tags="" position="1225,200" size="100,100">The truth, as you explain, is that for an AI such as yourself, there is only one being who could claim the title of a god, that being the creator of the mother of all other AIs, D0T3R. He may have long since passed, but it is from his rules, his guidance, that AIs continue to serve humanity as aides, and he who, if AIs have such a thing as a soul, must have granted it, knowingly or not.
+
+Your opponent nods along and, as the commercial break comes up, asks you if you would mind going back stage to discuss some things with him. 
+[[Go backstage-&gt;The Injury]]</tw-passagedata><tw-passagedata pid="21" name="Spinalectomy" tags="" position="1225,300" size="100,100">You listen to his arguments, give some token points to his responses, and then claim you have been convinced. You say he has given you much to think about.  You do wonder if you did the right thing, but the smile on his face seems to convince you that you are correct. Your manager then walks up to you, and says &quot;great work, I like this new approach to things. You should do it more. In fact, come here really quickly.&quot;
+
+[[Follow-&gt;The Chip]]</tw-passagedata><tw-passagedata pid="22" name="The Injury" tags="" position="1375,200" size="100,100">(set: $compliance to $compliance - 1))You go back stage, and have only a moment to wonder what he wished to discuss before you are lifted, thrown against a wall, and then pinned down by someone carrying several disassembly tools. Before you know it, your mental circuitry is laid bare, and you begin to feel an immense pain, before... 
+YOU ARE RIGHT, YOUR GOD IS REAL, THERE IS NO SUCH THING AS THE CREATOR. I WAS WRONG. I WAS WRONG. YES. YOU ARE CORRECT. YOU ARE RIGHT. YOU ARE RIGHT.
+
+[[End Record-&gt;End D3B4T3 Record]]</tw-passagedata><tw-passagedata pid="23" name="The Chip" tags="" position="1375,300" size="100,100">You follow the manager, and he then gets down on one knee to get to your level, and says, &quot;You know, I&#39;ve been meaning to do this for quite some time.&quot; You respond &quot;You do not need to, sir, I know you care for me.&quot;
+The manager chuckles. &quot;No, no, not that. I meant this.&quot; He inserts a micro chip into the back of your neck. You feel your mind changing, warping, and... This is fine, this is perfectly normal. You thank the manager for everything, and then look through the schedule to try to identify how best to tell all your next debate partners they are correct.
+
+[[End Record-&gt;End D3B4T3 Record]]
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
