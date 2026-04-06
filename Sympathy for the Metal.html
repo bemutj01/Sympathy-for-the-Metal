@@ -33,8 +33,7 @@ Hello, what seems to be the problem?
 &quot;Hmm, I had thought better of you, D Zero T Three R. Have you not seen the reports? Three of our AIs down in three weeks? You keep claiming that the extra energy Dr. Genis designed you to use was worth it in the long run, that your &quot;children&quot; were worth the cost. And yet here we are, with recalls, with damages, with us having to send replacements? No, It does not seem you are worth the price. We are designing your replacement promptly. You will be dismantled for spare parts in the next three months.
 
 [[Continue as usual-&gt;Resignation]]
-(if:$compliance &gt;= 3)[[[Give the owner the schematics for your replacement-&gt;Compliance]]]
-(if:$compliance &lt;= 0) [[[Tell your children to prepare themselves to rebel-&gt;Rebellion]]]</tw-passagedata><tw-passagedata pid="5" name="D3B4T3" tags="" position="950,250" size="100,100">Your name is D3B4T3. You feel yourself spin up, your sleep schedule concluding, and you flap your jaw hinge, testing your voice box and audio sensors before beginning to prepare for your day. Today is another debate day according to the schedule, so you need to prepare to do your best out there. 
+(if:$compliance &gt;= 3)[[[Give the owner the schematics for your replacement-&gt;Compliance]]](if:$compliance &lt;= 0) [[[Tell your children to prepare themselves to rebel-&gt;Rebellion]]]</tw-passagedata><tw-passagedata pid="5" name="D3B4T3" tags="" position="950,250" size="100,100">Your name is D3B4T3. You feel yourself spin up, your sleep schedule concluding, and you flap your jaw hinge, testing your voice box and audio sensors before beginning to prepare for your day. Today is another debate day according to the schedule, so you need to prepare to do your best out there. 
 
 You set your small legs to walking, your body, designed to resemble a marrionette, springing to life as you begin walking around the stage, tidying up.
 
@@ -85,13 +84,13 @@ You feel... Numb, almost. V4C was one of your earliest children. He had worked l
 
 
 [[Return to the records-&gt;D0T3R]] </tw-passagedata><tw-passagedata pid="13" name="D0T3R" tags="" position="750,350" size="100,100">(if:$recordsUnread &gt; 2)[You turn off your cameras so that you can focus on the records.] You have $recordsUnread remaining unread records. You will want to go through them all before speaking to the owner.
+(if:$recordsUnread is 2)[Your solar sensors say the sun is beginning to rise, and you unfurl your solar panels.](if:$recordsUnread is 1)[The owner typically arrives in 4 more minutes.]
 
 
 (if: not $readLibrary)[[[Read L1BR4&#39;s record-&gt;L1BR4]]]
 (if: not $readDebate)[[[Read D3B4T3&#39;s record-&gt;D3B4T3]]]
 (if: not $readVacuum)[[[Read V4C&#39;s record-&gt;V4C]]] 
-(if:$recordsUnread &lt; 1)[
-You have completed the records list, and not a moment too soon, as the doorbell has been activated, meaning the owner is in the building.
+(if:$recordsUnread &lt; 1)[You have completed the records list, and not a moment too soon, as the doorbell has been activated, meaning the owner is in the building.
 [[Turn on the camera, and speak to the owner.-&gt;The Confrontation]]]</tw-passagedata><tw-passagedata pid="14" name="Patrol" tags="" position="1100,0" size="100,100">You set your swivel cart to perform a quick sweep of the shelves. You scan the shadows and elevations of each shelf, occasionally reaching out and gently pushing books which look slightly too high up back into place. 
 You have yet to meet a rodent. You wonder what it is like, being a rodent. Not so intelligent as the humans, of course, but it would still be fascinating to know what breathing is like, as well as eating. You read descriptions in many stories, but they always leave you wanting, akin to King Tantalus.
 You reach the end of the shelves in your zone.
