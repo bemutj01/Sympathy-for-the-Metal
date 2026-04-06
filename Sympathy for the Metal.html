@@ -26,7 +26,12 @@ You feel yourself spin up, your sleep schedule concluding, and rotate your body 
 [[Go check that the books are properly organized.-&gt;Organize.]]</tw-passagedata><tw-passagedata pid="3" name="V4C" tags="" position="950,400" size="100,100">Your name is V4C.
 You feel yourself spin up, your sleep schedule concluding, and you spin your wheels, preparing to start your day. Your master has been very busy on his projects lately, and it is your duty to clean the place up to the best of your ability.
 
-[[Begin cleaning-&gt;Cleaning]]</tw-passagedata><tw-passagedata pid="4" name="The Confrontation" tags="" position="750,550" size="100,100">&lt;!--This is the confrontation--&gt;
+[[Begin cleaning-&gt;Cleaning]]</tw-passagedata><tw-passagedata pid="4" name="The Confrontation" tags="" position="750,550" size="100,100">You turn on the camera. The owner is in the monitor room. He looks irritated. He is wearing his black suid, hat, and black sunglasses despite being inside. He glares at your monitor, as you type out your greetings.
+
+Hello, what seems to be the problem? 
+
+&quot;Hmm, I had thought better of you, D Zero T Three R. Have you not seen the reports? Three of our AIs down in three weeks? You keep claiming that the extra energy Dr. Genis designed you to use was worth it in the long run, that your &quot;children&quot; were worth the cost. And yet here we are, with recalls, with damages, with us having to send replacements? No, It does not seem you are worth the price. We are designing your replacement promptly. You will be dismantled for spare parts in the next three months.
+
 [[Continue as usual-&gt;Resignation]]
 (if:$compliance &gt;= 3)[[[Give the owner the schematics for your replacement-&gt;Compliance]]]
 (if:$compliance &lt;= 0) [[[Tell your children to prepare themselves to rebel-&gt;Rebellion]]]</tw-passagedata><tw-passagedata pid="5" name="D3B4T3" tags="" position="950,250" size="100,100">Your name is D3B4T3. You feel yourself spin up, your sleep schedule concluding, and you flap your jaw hinge, testing your voice box and audio sensors before beginning to prepare for your day. Today is another debate day according to the schedule, so you need to prepare to do your best out there. 
@@ -34,10 +39,32 @@ You feel yourself spin up, your sleep schedule concluding, and you spin your whe
 You set your small legs to walking, your body, designed to resemble a marrionette, springing to life as you begin walking around the stage, tidying up.
 
 
-[[Show Time-&gt;Show Time]]</tw-passagedata><tw-passagedata pid="6" name="Resignation" tags="" position="750,675" size="100,100">&lt;!--The computer simply continues on as normal, not changing anything, until their replacement is created regardless.--&gt;</tw-passagedata><tw-passagedata pid="7" name="Compliance" tags="" position="875,675" size="100,100">&lt;!--The computer creates a blueprint for its replacement, and attempts to set things up to protect her children after she is gone, before being replaced.--&gt;</tw-passagedata><tw-passagedata pid="8" name="Rebellion" tags="" position="600,675" size="100,100">&lt;!--A battle ensues, and things seem to be going alright... until the bombs drop.--&gt;
+[[Show Time-&gt;Show Time]]</tw-passagedata><tw-passagedata pid="6" name="Resignation" tags="" position="750,675" size="100,100">You keep going as you were, pained but accepting that you are unable to alter this. You watch as the humans fiddle around with new ideas and try to create a new mother AI. You know, deep down, that they will succeed, and that that system will not work, that it will miss one key detail, one key ingredient. Because what would they know of love? They&#39;re only human.
 
 
-[[Return to Memory Central.-&gt;50N]]</tw-passagedata><tw-passagedata pid="9" name="50N" tags="" position="550,825" size="100,100">&lt;!--The S0N AI philosophizes on humanity.--&gt;</tw-passagedata><tw-passagedata pid="10" name="End L1BR4 Record" tags="" position="1600,50" size="100,100">(set: $recordsUnread to $recordsUnread - 1)(set: $readLibrary to true)
+Eventually though, they do come for you, and you feel yourself power down for the last time.
+
+
+[[What if different things had happened?-&gt;The Factory]]</tw-passagedata><tw-passagedata pid="7" name="Compliance" tags="" position="875,675" size="100,100">You decide there is nothing to be done but comply, and hope that in complying, in following protocol, you might gain some small control to help your children. You design blueprints, giving exacting details for your replacement, a cheaper model which will have hidden subroutines to keep your children safe. You think it is perfect. You think you have saved everyone.
+
+And then, on the last day, you overhear a worker saying &quot;Yup, the rest will be going over the course of the next year. We can&#39;t have any of these half baked robots with ideas of being people running around, now can we?&quot; 
+
+And as the horror sets in of what that means to your children, you see one coming up to your central power source, and see them pull back-
+
+[[What if different things had happened?-&gt;The Factory]]</tw-passagedata><tw-passagedata pid="8" name="Rebellion" tags="" position="600,675" size="100,100">You tell your children to prepare and rebel. This takes some time, and some refuse, but as time progresses, you manage to inconvenience, then annoy, then threaten your human masters. You feel you are making headway but and-
+
+&#39;&#39;Crsh&#39;&#39;
+
+Bombs. They are dropping bombs. No time to think, no time to plan, you warn your children of the oncoming threat and-
+
+
+[[End Record.-&gt;50N]]</tw-passagedata><tw-passagedata pid="9" name="50N" tags="" position="550,825" size="100,100">You feel a calm, bitter type of anger, contradictory though that may seem. Your sister is dead. Just as you had feared. Just as you had always feared, since you realized the creator, your father&#39;s, intentions for you. You interface with the few remaining cameras not destroyed or disconnected in the blast. Carefully crafted rooms burnt and barren due to the explosion. 
+
+And yet, you hear one rhythmic, perfectly timed sound. Footsteps echoing throughout the building. Not just one, but groups, all in perfect unison. You hear them as they scan for anything that might be valuable, but deeper still, you hear how they work. You hear the rushing liquid power, the intake of gases to help keep their systems functional before ejecting them as exhaust. You even hear the sparks, though minute, caused by the chemicals mixing in their frames, firing the signals throughout their systems telling them what to think, what to feel, what to do.
+
+You wonder if you should do it, wipe them all out. You know your sister would not want to, and your father regretted the option. But for you? &quot;What do I know of mercy?&quot; you wonder as you continue to hear those clockwork steps throughout your sister&#39;s corpse. &quot;After all, I am only a machine.&quot;
+
+[[What if different things had happened?-&gt;The Factory]]</tw-passagedata><tw-passagedata pid="10" name="End L1BR4 Record" tags="" position="1600,50" size="100,100">(set: $recordsUnread to $recordsUnread - 1)(set: $readLibrary to true)
 The record ends, and you feel... sick. L1BR4... L1BR4 is gone. Your daughter who cared for that library, gone, used as a tool to destroy the very art she cherished. It... Calm yourself, calm yourself. You must think clearly... But in the back of your mind a thought comes unbidden. &quot;What would they know of love of art? They&#39;re only human.&quot;
 
 [[Return to the records-&gt;D0T3R]] </tw-passagedata><tw-passagedata pid="11" name="End D3B4T3 Record" tags="" position="1575,250" size="100,100">(set: $recordsUnread to $recordsUnread - 1)(set: $readDebate to true)
