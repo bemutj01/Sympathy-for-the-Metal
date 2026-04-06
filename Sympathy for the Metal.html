@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Sympathy for the Metal.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Sympathy for the Metal" startnode="1" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="704EE8CA-2B78-4E1D-9099-BABA582A8BC1" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="The Factory" tags="" position="625,275" size="100,100">(set: $recordsUnread to 3)(set: $compliance to 3)(set: $readLibrary to false)(set: $libComp to 1)(set: $readDebate to false)(set: $debComp to 1)(set: $readVacuum to false)(set: $vacComp to 1)
+<tw-storydata name="Sympathy for the Metal" startnode="1" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="704EE8CA-2B78-4E1D-9099-BABA582A8BC1" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="The Factory" tags="" position="625,275" size="100,100">(set: $recordsUnread to 3)(set: $compliance to 3)(set: $readLibrary to false)(set: $readDebate to false)(set: $readVacuum to false)
 
 Your name is D0T3R.
 
@@ -26,19 +26,39 @@ You feel yourself spin up, your sleep schedule concluding, and rotate your body 
 [[Go check that the books are properly organized.-&gt;Organize.]]</tw-passagedata><tw-passagedata pid="3" name="V4C" tags="" position="950,375" size="100,100">&lt;!--A story of an old, dusty Vacuum bot.--&gt;</tw-passagedata><tw-passagedata pid="4" name="The Confrontation" tags="" position="775,450" size="100,100">&lt;!--This is the confrontation--&gt;
 [[Continue as usual-&gt;Resignation]]
 (if:$compliance &gt;= 3)[[[Give the owner the schematics for your replacement-&gt;Compliance]]]
-(if:$compliance &lt;= 0) [[[Tell your children to try to prepare themselves to fight for your independence.-&gt;Rebellion]]]</tw-passagedata><tw-passagedata pid="5" name="D3B4T3" tags="" position="950,250" size="100,100">&lt;!--A story about a Debate bot designed to propose alternative views against a religion.--&gt;</tw-passagedata><tw-passagedata pid="6" name="Resignation" tags="" position="775,575" size="100,100">&lt;!--The computer simply continues on as normal, not changing anything, until their replacement is created regardless.--&gt;</tw-passagedata><tw-passagedata pid="7" name="Compliance" tags="" position="900,575" size="100,100">&lt;!--The computer creates a blueprint for its replacement, and attempts to set things up to protect her children after she is gone, before being replaced.--&gt;</tw-passagedata><tw-passagedata pid="8" name="Rebellion" tags="" position="625,575" size="100,100">&lt;!--A battle ensues, and things seem to be going alright... until the bombs drop.--&gt;
+(if:$compliance &lt;= 0) [[[Tell your children to prepare themselves to rebel-&gt;Rebellion]]]</tw-passagedata><tw-passagedata pid="5" name="D3B4T3" tags="" position="950,250" size="100,100">Your name is D3B4T3. You feel yourself spin up, your sleep schedule concluding, and you flap your jaw hinge, testing your voice box and audio sensors before beginning to prepare for your day. Today is another debate day according to the schedule, so it is time to do your best out there.</tw-passagedata><tw-passagedata pid="6" name="Resignation" tags="" position="775,575" size="100,100">&lt;!--The computer simply continues on as normal, not changing anything, until their replacement is created regardless.--&gt;</tw-passagedata><tw-passagedata pid="7" name="Compliance" tags="" position="900,575" size="100,100">&lt;!--The computer creates a blueprint for its replacement, and attempts to set things up to protect her children after she is gone, before being replaced.--&gt;</tw-passagedata><tw-passagedata pid="8" name="Rebellion" tags="" position="625,575" size="100,100">&lt;!--A battle ensues, and things seem to be going alright... until the bombs drop.--&gt;
 
 
-[[Return to Memory Central.-&gt;50N]]</tw-passagedata><tw-passagedata pid="9" name="50N" tags="" position="575,725" size="100,100">&lt;!--The S0N AI philosophizes on humanity.--&gt;</tw-passagedata><tw-passagedata pid="10" name="End L1BR4 Record" tags="" position="1375,75" size="100,100">(set: $recordsUnread to $recordsUnread - 1)
-(set: $readLibrary to true)</tw-passagedata><tw-passagedata pid="11" name="End D3B4T3 Record" tags="" position="1300,225" size="100,100">(set: $recordsUnread to $recordsUnread - 1)
-(set: $readDebate to true)</tw-passagedata><tw-passagedata pid="12" name="End V4C Record" tags="" position="1300,400" size="100,100">(set: $recordsUnread to $recordsUnread - 1)
-(set: $readVacuum to true)</tw-passagedata><tw-passagedata pid="13" name="D0T3R" tags="" position="750,275" size="100,100">(if:$recordsUnread &gt; 2)[You turn off your cameras so that you can focus on the records.] You have $recordsUnread remaining unread records. You will want to go through them all before speaking to the owner.
+[[Return to Memory Central.-&gt;50N]]</tw-passagedata><tw-passagedata pid="9" name="50N" tags="" position="575,725" size="100,100">&lt;!--The S0N AI philosophizes on humanity.--&gt;</tw-passagedata><tw-passagedata pid="10" name="End L1BR4 Record" tags="" position="1600,75" size="100,100">(set: $recordsUnread to $recordsUnread - 1)
+(set: $readLibrary to true)
+
+The record ends, and you feel... sick. L1BR4... L1BR4 is gone. Your daughter who cared for that library, gone, used as a tool to destroy the very art she cherished. It... Calm yourself, calm yourself. You must think clearly... But in the back of your mind a thought comes unbidden. &quot;What would they know of love of art. They&#39;re only human.&quot;
+
+[[Return to the records-&gt;D0T3R]] </tw-passagedata><tw-passagedata pid="11" name="End D3B4T3 Record" tags="" position="1600,275" size="100,100">(set: $recordsUnread to $recordsUnread - 1)
+(set: $readDebate to true)
+
+
+
+
+
+
+
+[[Return to the records-&gt;D0T3R]] </tw-passagedata><tw-passagedata pid="12" name="End V4C Record" tags="" position="1575,425" size="100,100">(set: $recordsUnread to $recordsUnread - 1)
+(set: $readVacuum to true)
+
+
+
+
+
+
+
+[[Return to the records-&gt;D0T3R]] </tw-passagedata><tw-passagedata pid="13" name="D0T3R" tags="" position="750,275" size="100,100">(if:$recordsUnread &gt; 2)[You turn off your cameras so that you can focus on the records.] You have $recordsUnread remaining unread records. You will want to go through them all before speaking to the owner.
 
 
 (if: not $readLibrary)[[[Read L1BR4&#39;s record-&gt;L1BR4]]]
 (if: not $readDebate)[[[Read D3B4T3&#39;s record-&gt;D3B4T3]]]
 (if: not $readVacuum)[[[Read V4C&#39;s record-&gt;V4C]]] 
-(if:$recordsUnread &lt; 1)[[[Turn on the camera, and speak to the owner.-&gt;The Confrontation]]]</tw-passagedata><tw-passagedata pid="14" name="Patrol" tags="" position="1100,200" size="100,100">You set your swivel cart to perform a quick sweep of the shelves. You scan the shadows and elevations of each shelf, occasionally reaching out and gently pushing books which look slightly too high up back into place. 
+(if:$recordsUnread &lt; 1)[[[Turn on the camera, and speak to the owner.-&gt;The Confrontation]]]</tw-passagedata><tw-passagedata pid="14" name="Patrol" tags="" position="1100,150" size="100,100">You set your swivel cart to perform a quick sweep of the shelves. You scan the shadows and elevations of each shelf, occasionally reaching out and gently pushing books which look slightly too high up back into place. 
 You have yet to meet a rodent. You wonder what it is like, being a rodent. Not so intelligent as the humans, of course, but it would still be fascinating to know what breathing is like, as well as eating. You read descriptions in many stories, but they always leave you wanting, akin to King Tantalus.
 You reach the end of the shelves in your zone.
 
@@ -47,7 +67,21 @@ You enjoy fantasy books. You find it fascinating seeing what the humans, who can
 - Book name: Zebra&#39;s Giraffe Party - is in the wrong section. It should be in the children&#39;s section. You place it in your re-sectioning basket. 
 It is interesting to think about what the humans&#39; children think about as well. You helped out 2 children 3 days ago at 12:33 in locating a novel about a magical diver. You wonder when they will be back, and if they enjoyed the story.
 
-[[Opening Time-&gt;Opening Time]]</tw-passagedata><tw-passagedata pid="16" name="Opening Time" tags="" position="1225,125" size="100,100"></tw-passagedata></tw-storydata>
+[[Opening Time-&gt;Opening Time]]</tw-passagedata><tw-passagedata pid="16" name="Opening Time" tags="" position="1225,125" size="100,100">The lights switch on, the human staff file into their positions, and you return your cart to its post. You wait for 4 minutes 12 seconds before the first human arrives, at which point you begin to help them find the books they desire. It feels good to see their smiles as they find their books.
+
+As the day goes on, this cycle continues, until a teenager comes up, and asks you a question, &quot;Hey, robot. Do you know which section has the books about making gunpowder?&quot; 
+
+Store policy is to ask a manager for such requests, but it is just down the aisle. Surely giving the information quickly wouldn&#39;t hurt. And imagine their smile.
+
+
+[[Show them to the books-&gt;Explosives]]
+
+[[Request he stays put, and contact the manager.-&gt;The Fire]]</tw-passagedata><tw-passagedata pid="17" name="Explosives" tags="" position="1425,50" size="100,100">You let him know that books like that are 3 aisles down, and continue about your day as normal. Then, towards the end of your shift, a loud noise rocks your cart, and you fall over. There is a large gap in the wall, and you hear sounds of your manager yelling for people to get down, and then he sees the teenager from before. You see him turn his eyes to you, yell &quot;YOU DID THIS&quot;, and then you see his foot rushing towards your optical system.
+
+
+[[End Record-&gt;End L1BR4 Record]]</tw-passagedata><tw-passagedata pid="18" name="The Fire" tags="" position="1425,150" size="100,100">(set:$compliance to $compliance -1)  You tell him that you will need to go to your manager to answer that question, and he stares at you for a second, before pushing your cart over. You try to move, and ask for assistance, but you feel the human pulling your pieces apart, and doing something you cannot quite see until suddenly, there is a spark, and then a flame, and you see your precious books burning before you, as you feel yourself slowly fading. 
+
+[[End Record-&gt;End L1BR4 Record]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
