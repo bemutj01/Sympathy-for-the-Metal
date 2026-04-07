@@ -13,15 +13,16 @@ The player is intended to feel sad for the AIs.
 Story Map:
 ![Story Map](./StoryMap.png)
 
+Variable Inventory:
 
 
-Playtest:
+Playtest Notes:
 
 •	Tester name (first name only is fine) and relationship (“classmate,” “roommate,” etc.)
 Drew - Family
 
 •	3 observations the tester made during play (what confused them, what surprised them, what they missed)
-- Colors should not blind the player (no pink)
+- Colors should not blind the player (no harsh pinks)
 - Buttons should be more obvisous
 - Text fading was too much
 - Make it obvious when reaching the end of the story
@@ -34,3 +35,6 @@ Drew - Family
 •	1 observation the team chose not to act on, and why
 - Text fading was too much: The text fading adds depth to the story with timed text events
 
+Division of Labor Log:
+Thomas: Story creation, passages, variables
+Logan: CSS, music assets, playtest
