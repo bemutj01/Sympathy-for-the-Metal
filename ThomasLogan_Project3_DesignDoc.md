@@ -14,7 +14,9 @@ Story Map:
 ![Story Map](./StoryMap.png)
 
 Variable Inventory:
-
+recordsUnread is a number set to 3, and tracks how many records you still need to go through to get to the end of the story, representing the passage of time as it goes down. Is altered in passages End L1BR4 Record, End D3B4T3 Record, and End V4C Record, and was set in The Factory. It is read in passage D0T3R.
+compliance is a number set to 3, and represents the degree to which the D0T3R computer believes following the rules humans place on her by humans. It is altered in passages The Fire, The Injury, and Key Rage. It is read at The Confrontation.
+readLibrary, readDebate, and readVacuum all are booleans set to false, and represent whether or not a record has already been read, which D0T3R does not have the time to read again. They are all altered at their respective End Records: End L1BR4 Record, End D3B4T3 Record, and End V4C Record, and they are read at D0T3R.
 
 Playtest Notes:
 
