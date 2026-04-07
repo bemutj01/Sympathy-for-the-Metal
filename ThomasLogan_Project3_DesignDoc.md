@@ -1,3 +1,15 @@
+Team Roster:
+Thomas Bemus: Narrative Lead, Systems Lead
+Thomas wrote the story. He also did the structural design of the system.
+Logan: Polish Lead
+Logan made the CSS. He also wrote the inline after and audio functions.
+
+
+Story Concept:
+The story is the story of a mother AI. She is experiencing replays from her children.
+The theme is tragic, focusing on humans ignoring the humanity in others.
+The player is intended to feel sad for the AIs.
+
 Story Map:
 ![Story Map](./StoryMap.png)
 
