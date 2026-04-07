@@ -1,3 +1,8 @@
+Story Map:
+![Story Map](./StoryMap.png)
+
+
+
 Playtest:
 
 •	Tester name (first name only is fine) and relationship (“classmate,” “roommate,” etc.)
